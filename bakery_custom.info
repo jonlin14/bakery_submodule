@@ -1,0 +1,5 @@
+name = Bakery Module
+description = Removes the subject field in the comment form.
+package = Epicodus Examples
+core = 7.x
+files[] = bakery_custom.module

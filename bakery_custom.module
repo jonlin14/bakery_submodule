@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * @file
+ * Removes subject field in the comment form
+ */
+function bakery_custom_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id = 'comment-form') {
+    $form['subject'] = false;
+  }
+
+}
